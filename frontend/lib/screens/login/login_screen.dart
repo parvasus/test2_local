@@ -80,8 +80,8 @@ class LoginScreen extends StatelessWidget {
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => BottomNavBar(accessToken: accessToken),
-                      ),
+                        builder: (context) => BottomNavBar(accessToken: accessToken), 
+                      ),// 별다른 입력 없으면 0번으로 이동
                     );
                   } catch (e) {
                     // 에러 처리
@@ -102,7 +102,7 @@ class LoginScreen extends StatelessWidget {
               // 이메일 회원가입 버튼
               OutlinedButton(
                 child: Text(
-                  '이메일 회원가입',
+                  '회원가입',
                   style: TextStyle(fontSize: screenHeight * 0.02),
                 ),
                 onPressed: () {

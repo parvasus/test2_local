@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'login/mypage_modal.dart';
+import 'login/profile_modal.dart';
 import 'exercise/exercise_screen.dart';
 import 'calendar/calendar_screen.dart';
 import 'camera/camera_screen.dart';
@@ -17,6 +17,7 @@ class BottomNavBar extends StatefulWidget {
   _BottomNavBarState createState() => _BottomNavBarState();
 }
 
+// 별다른 입력이 없으면 0으로 선택되고, 0은 운동 페이지이다.
 class _BottomNavBarState extends State<BottomNavBar> {
   int _selectedIndex = 0;
 

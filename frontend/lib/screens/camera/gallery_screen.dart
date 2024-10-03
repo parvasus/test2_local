@@ -22,7 +22,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
 
   Future<void> fetchImages() async {
 
-    final String baseUrl = 'http://192.168.35.91:8000/api/v1';
+    final String baseUrl = 'http://192.168.121.12:8000/api/v1'; //S : 192.168.123.199,  J : 192.168.121.12,  H : 192.168.35.91
     // final String baseUrl = 'http://192.168.0.13:8000/api/v1';
     // final String baseUrl = 'http://10.254.3.138:8000/api/v1';
 

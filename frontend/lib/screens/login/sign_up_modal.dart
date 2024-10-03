@@ -10,6 +10,7 @@ void showSignUpModal(BuildContext context) {
   final TextEditingController _passwordController = TextEditingController();
   final TextEditingController _nicknameController = TextEditingController();
   final TextEditingController _birthController = TextEditingController();
+  
   final ApiClient _apiClient = ApiClient(); // API 클라이언트 인스턴스 생성
 
   showDialog(

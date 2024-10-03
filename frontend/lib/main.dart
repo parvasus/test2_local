@@ -8,6 +8,10 @@ import 'screens/login/login_screen.dart';
 import 'screens/bottom_navigation_bar.dart';
 import 'models/UserProvider.dart';
 
+//test
+import 'screens/exercise/exercise_screen.dart';
+import 'screens/camera/gallery_screen.dart';
+
 List<CameraDescription> cameras = [];
 
 Future<void> main() async {
@@ -36,7 +40,7 @@ class MyApp extends StatelessWidget {
         builder: (context, userProvider, child) {
           return userProvider.isLoggedIn
               ? BottomNavBar(accessToken: userProvider.accessToken ?? '')
-              : LoginScreen();
+              : GalleryScreen(); //ExerciseScreen, LoginScreen, BottomNavBar, GalleryScreen
         },
       ),
     );

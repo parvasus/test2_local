@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\frontend",
+    "\\frontend\\lib",
+    "\\frontend\\lib\\screens\\calendar",
+    "\\frontend\\lib\\screens\\camera",
+    "\\frontend\\lib\\screens\\grade",
+    "\\frontend\\lib\\screens\\record",
+    "\\frontend\\lib\\services"
+  ],
+  "SelectedNode": "\\frontend\\lib\\services\\api_client.dart",
+  "PreviewInSolutionExplorer": false
+}
